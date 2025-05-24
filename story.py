@@ -2,7 +2,7 @@ import time
 import sys
 
 def print_slow(text):
-    """Print text with a typing effect"""
+    # Print text with a typing effect
     for char in text:
         sys.stdout.write(char)
         sys.stdout.flush()
@@ -10,7 +10,7 @@ def print_slow(text):
     print()
 
 def get_choice(prompt):
-    """Get user input and validate it's Y or N"""
+    # Get user input and validate it's Y or N
     while True:
         choice = input(prompt).upper()
         if choice in ['Y', 'N']:
