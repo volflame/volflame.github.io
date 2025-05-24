@@ -30,7 +30,7 @@ const StoryGame = ({ setCurrentSegment }: StoryGameProps) => {
     for (const char of text) {
       currentText += char;
       setGameState(prev => ({ ...prev, currentText }));
-      await new Promise(resolve => setTimeout(resolve, 12));
+      await new Promise(resolve => setTimeout(resolve, 30));
     }
     
     setGameState(prev => ({ ...prev, isTyping: false }));
