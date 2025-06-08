@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
-  assetPrefix: '',
+  basePath: '/volflame.github.io',
+  assetPrefix: '/volflame.github.io/',
 }
 
 module.exports = nextConfig 

@@ -26,7 +26,7 @@ OCE 122. June 13.
 It's 2 in the morning. I arrived at the edge of the Dome. The glass, curving towards an apex one hundred meters up, and another one hundred meters back, was calling to me. I could feel the hairs on my skin rising, an electric force pulling me to it. I turned around—nobody was looking.`,
     choices: [
       {
-        text: "Touch the dome?",
+        text: "You step forward and touch the dome.",
         next: "dome_choice"
       }
     ]
@@ -76,7 +76,7 @@ I couldn't face her. Since a few days ago, I felt a calling to reach the surface
 "So, what do you think? Will you join me? Or will you leave this dimension, all your memories erased?" She extended her hand.`,
     choices: [
       {
-        text: "Join her?",
+        text: "You take her hand.",
         next: "queen_choice"
       }
     ]
